@@ -7,7 +7,7 @@ This TypeScript project implements a function to merge three sorted integer arra
 - The function merges these collections into one ascending sorted array.
   
 ## Project Structure
-
+```bash
   ├── src/
   │ └── utils
   │       └── merge.ts # Implementation of merge function
@@ -19,6 +19,7 @@ This TypeScript project implements a function to merge three sorted integer arra
   ├── tsconfig.json # TypeScript config
   ├── jest.config.js # Jest config for ts-jest
   └── README.md # This file
+```
 
 ## Setup
 
