@@ -1,0 +1,46 @@
+# Node.js dependencies
+node_modules/
+
+# Build output
+dist/
+build/
+*.js # Compiled JavaScript files (if not in a dedicated build directory)
+*.jsx # Compiled JSX files (if applicable)
+*.d.ts # TypeScript declaration files (if not intended for publishing)
+*.map # Source map files
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# Environment variables
+.env
+.env.*.local
+
+# IDE and OS specific files
+.vscode/ # VS Code specific settings
+.idea/ # IntelliJ IDEA specific settings
+.DS_Store # macOS specific file
+Thumbs.db # Windows specific file
+
+# Optional npm cache directory
+.npm/
+
+# Optional ESLint cache
+.eslintcache
+
+# Optional REPL history
+.node_repl_history
+
+# Testing related files
+coverage/
+.nyc_output/
+
+# Yarn files
+yarn-error.log
+.pnp.*
+
+# Package lock files (if you prefer to regenerate them)
+# package-lock.json
+# yarn.lock
