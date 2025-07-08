@@ -8,17 +8,17 @@ This TypeScript project implements a function to merge three sorted integer arra
   
 ## Project Structure
 
-├── src/
-│ └── utils
-│       └── merge.ts # Implementation of merge function
-│ └── index.ts
-├── test/
-│ └── merge.test.ts # Unit tests
-├── .gitignore
-├── package.json # Project dependencies and scripts
-├── tsconfig.json # TypeScript config
-├── jest.config.js # Jest config for ts-jest
-└── README.md # This file
+  ├── src/
+  │ └── utils
+  │       └── merge.ts # Implementation of merge function
+  │ └── index.ts
+  ├── test/
+  │ └── merge.test.ts # Unit tests
+  ├── .gitignore
+  ├── package.json # Project dependencies and scripts
+  ├── tsconfig.json # TypeScript config
+  ├── jest.config.js # Jest config for ts-jest
+  └── README.md # This file
 
 ## Setup
 
@@ -32,6 +32,12 @@ npm install
 
 ```bash
 npx tsc
+```
+
+## Run
+
+```bash
+npm start
 ```
 
 ## Test
